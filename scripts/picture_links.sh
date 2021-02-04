@@ -1,0 +1,1 @@
+ls pictures | awk '{ printf "![" $0 "](" $0 ")\n"}' >picture_links.md
